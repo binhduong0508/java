@@ -10,7 +10,7 @@ public class bai8  {
     } while(n <0);
     int A[] = new int [n];
     System.out.println("nhap cac phan tu cho mang");
-    for(int i=1; i< n;i++){
+    for(int i=1; i<= n;i++){
     System.out.print("nhap phan tu thu i"+i+":");
     A[i]=sc.nextInt();
     }
