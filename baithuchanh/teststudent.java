@@ -4,5 +4,6 @@ public class teststudent {
     std.nhapthongtin();
     std.tinhdiemtong();
     std.xuatthongtin();
+
    } 
 }
