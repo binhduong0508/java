@@ -8,7 +8,7 @@ public class tinhchuvidientichhinhtron {
         bankinh = sc.nextDouble();
     }
    public void tinhchuvi(){
-     chuvi =bankinh * 2 * Math.PI * 1d;
+     chuvi =bankinh * 2 * Math.PI ;
    }
    public void tinhdientich(){
      dientich = bankinh*bankinh*Math.PI;
@@ -19,4 +19,6 @@ public class tinhchuvidientichhinhtron {
    public void indientich(){
     System.out.println("dien tich:"+ dientich);
    }
+ 
 }
+
