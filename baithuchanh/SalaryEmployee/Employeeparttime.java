@@ -11,6 +11,6 @@ public class Employeeparttime extends Employee {
         return "nhan vien thoi vu";
     }
     public void CaculateSalary(){
-      salary = hours * 100000;
+      salary = salary.luongpart*hours;
     }
 }
