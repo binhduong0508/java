@@ -1,6 +1,6 @@
 package SalaryEmployee ;
 
-public class Employee {
+public class Employee   {
     public String fullname;
    public String ID;
    public  long salary;

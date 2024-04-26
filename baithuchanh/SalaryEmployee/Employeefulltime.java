@@ -1,6 +1,5 @@
 package SalaryEmployee;
 
-
 public class Employeefulltime extends Employee {
     public int Datework;
     public int Type;
@@ -26,10 +25,10 @@ public class Employeefulltime extends Employee {
    
     public void CaculateSalary(){
      if(salary.nhanvien)
-     salary = salary.luongfullnv+ Datework*salary.luongfullnv;
+     salary = salary.luongfullnv+ Datework*salary.extrasalary;
      else{
         if(salary.sep)
-     salary = salary.luongfullsep+ Datework*salary.luongfullsep;  
+     salary = salary.luongfullsep+ Datework*salary.extrasalary;  
      }
         
     }
