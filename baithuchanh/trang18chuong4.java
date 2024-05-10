@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ttang18chuong4 {
+public class trang18chuong4 {
     public static void main(String[] args) {
         ArrayList<Integer> arrint = new ArrayList<>();
         arrint.add(0);
