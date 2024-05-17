@@ -5,11 +5,13 @@ import java.util.Scanner;
 public class student {
   public String fullname;
   public int age;
+  public String cccd;
+  public String gioi;
   Scanner sc = new Scanner(System.in);
   public void nhapthongtin(){
     System.out.print("nhap ten: ");
     fullname = sc.nextLine();
-    System.out.println("nhap tuoi");
+    System.out.print("nhap tuoi: ");
     age = sc.nextInt();
   }
   public void inthongtin(){
@@ -17,16 +19,21 @@ public class student {
   }
   public void newthongtin(){
     System.out.print("nhap cccd: ");
-    String cccd = sc.next();
+     cccd = sc.next();
     System.out.print("nhap gioi tinh: ");
-    String gioi =sc.next();
+     gioi =sc.next();
+  }
+  public void innewthongtin(){
+    inthongtin();
     System.out.println("can cuoc cong dan: "+ cccd);
     System.out.println("gioi tinh: "+ gioi);
+
   }
+
   public void suathongtin(){
-   System.out.println("nhap ten sua");
+   System.out.println("nhap ten sua: ");
    fullname = sc.next();
-   System.out.println(fullname);
+   innewthongtin();
 
     }
   }

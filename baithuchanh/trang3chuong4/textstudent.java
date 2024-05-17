@@ -6,6 +6,7 @@ public class textstudent {
         std.nhapthongtin();
         std.inthongtin();
         std.newthongtin();
+        std.innewthongtin();
         std.suathongtin();
     }
 }
